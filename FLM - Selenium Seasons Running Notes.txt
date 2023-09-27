@@ -108,17 +108,6 @@ org.openqa.selenium.WebDriver.Timeouts
 org.openqa.selenium.WebDriver.Window
 
 
-findElement(By)
-findElements(By)
-
-
-
-
-
-
-
-navigate()
-switchTo()
 
 -----------------------------
 get(String):void 
@@ -169,4 +158,118 @@ manage(): Options
 
 this will help in managing the window sizes , cookies , synchronization etc..
 
+
+******************************************
+Automation - Selenium Season - 1
+Day    - 27th  September  - Wednesday 
+******************************************
+
+============================
+Methods In WebDriver (13) .Cont...
+============================
+
+-----------------------------------------
+navigate(): Navigation
+
+back()
+forward()
+refresh()
+to(String)
+to(URL)
+------------------------------------------
+switchTo(): TargetLocator  
+
+this method is used to switch the webdriver control from page to tab/window or alert or frame 
+
+activeElement()
+alert()
+defaultContent()
+frame(int)
+frame(String)
+frame(WebElement)
+parentFrame()
+window(String)
+
+-------------------------------------------
+findElement(By):WebElement
+
+
+className(String)
+cssSelector(String)
+id(String)
+linkText(String)
+name(String)
+partialLinkText(String)
+tagName(String)
+xpath(String)
+
+-----------------------------------------------------
+Locators in Selenium (8) or Locator startagies
+-----------------------------------------------------
+
+HTML Terminology 
+
+<input type="text" name="username" id="username" class="login_input" value="" fdprocessedid="0b90x8">
+
+<a href="Register.php">New User Register Here</a>
+
+<tagname attribute1="value of attribute1" attribute2="value of attribute2" .....></tagName>
+
+<tagname attribute1="value of attribute1" attribute2="value of attribute2" .....>text on element</tagName>
+
+Locators based on attributes : 
+
+id(String)
+name(String)
+className(String)
+
+based on link text : 
+
+linkText(String): text present in between > and <
+
+partialLinkText(String): subset of text present in between > and <
+
+
+based  on tagName :
+
+tagName(String) => this is not prefred for single element 
+mostly prefred for multiple elements 
+
+
+based on tagName and /or  attributes and /or text on element :
+
+xpath(String)
+
+cssSelector(String) 
+
+----------------------------------------------------------
+
+findElements(By) : List<WebElement>
+
+===================================
+Methods in WebElement (16) :
+===================================
+
+clear()
+
+findElement(By)
+findElements(By)
+getAttribute(String)
+getCssValue(String)
+getLocation()
+getRect()
+getSize()
+getTagName()
+getText()
+isDisplayed()
+isEnabled()
+isSelected()
+
+submit()
+
+-----------------------------------------------
+sendKeys(CharSequence...): void 
+-------------------------------------------
+click():void 
+---------------------------------------
 
