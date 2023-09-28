@@ -26,9 +26,19 @@ public class MethodsInWebElement1 {
 		
 		Thread.sleep(3000);
 		
+		driver.findElement(By.id("username")).clear();
+		
+		Thread.sleep(3000);
+		
 		driver.findElement(By.id("login")).click();
 		
 		Thread.sleep(3000);
+		
+		System.out.println(driver.findElement(By.id("username_span")).getText());
+		
+		System.out.println(driver.findElement(By.id("username_span")).getAttribute("class"));
+		
+		System.out.println(driver.findElement(By.id("username_span")).getAttribute("name"));
 		
 		System.out.println(driver.getTitle());
 		

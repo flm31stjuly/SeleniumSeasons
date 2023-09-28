@@ -250,26 +250,61 @@ findElements(By) : List<WebElement>
 Methods in WebElement (16) :
 ===================================
 
-clear()
-
-findElement(By)
-findElements(By)
-getAttribute(String)
-getCssValue(String)
-getLocation()
-getRect()
-getSize()
-getTagName()
-getText()
-isDisplayed()
-isEnabled()
-isSelected()
-
-submit()
 
 -----------------------------------------------
 sendKeys(CharSequence...): void 
 -------------------------------------------
 click():void 
 ---------------------------------------
+
+
+******************************************
+Automation - Selenium Season - 1
+Day    - 28th  September  - Thursday 
+******************************************
+
+------------------------------------
+Methods in WebElement(16)  cont ..
+-------------------------------------
+clear(): void 
+this is applied to text fields (having tagname input and type=text )
+---------------------------------------
+getText():String
+---------------------------------------------
+getAttribute(String):String 
+
+case 1: attribute is present with some value  o/p: value 
+
+case 2: attribute is not present  o/p: null
+
+case 3: attribute is present but value not assigned o/p :true 
+
+----------------------------------------------------------------
+getCssValue(String):String
+
+CSS : Cascading style sheets 
+
+----------------------------------------------------------------
+
+getLocation():Point ( x,y coordinatees of left most corner of WebElement)
+getRect(): x,y,height and width
+getSize(): height and width
+
+--------------------------------------------------------------------------
+
+getTagName():String 
+--------------------------------------------------------------------
+
+isDisplayed():boolean 
+isEnabled():boolean
+isSelected():boolean  ==> this will be discussed in dropdown , checkbox , radio button 
+
+----------------------------------------------------------------------
+
+submit():void this is to submit a form directly to server
+
+--------------------------------------------------------------------
+
+findElement(By):WebElement
+findElements(By):List<WebElement> 
 
