@@ -308,3 +308,77 @@ submit():void this is to submit a form directly to server
 findElement(By):WebElement
 findElements(By):List<WebElement> 
 
+
+******************************************
+Automation - Selenium Season - 1
+Day    - 29th  September  - Friday 
+******************************************
+
+findElement(By):WebElement
+findElements(By):List<WebElement>
+
+------------------------------------------
+Links Testing 
+
+id
+name
+className
+tagname
+linkText
+partialLinkText
+xpath
+cssSelector
+
+<a href="Register.php">New User Register Here</a>
+
+
+Links HTML terminology :
+
+html tag : a 
+
+---------------------------------------------
+
+Dropdown Testing 
+
+
+to select an item from dropdown we have 2 ways 
+
+1) Conventional way 
+2) using Select class 
+
+-------------
+1) Conventional way 
+
+using sendkeys 
+
+2) using Select class 
+
+org.openqa.selenium.support.ui
+
+Select 
+
+constructor : 
+
+Select(WebElement)
+
+selectByIndex(int) ; index starts from 0  // not prefered 
+selectByValue(String) ; here String is value of "value" attribute
+selectByVisibleText(String): here is text on the item or option (text between > and <)
+
+
+_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy
+
+_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy
+
+_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy
+
+
+????????????????????????????????
+Assignment 
+
+go to facebook.com 
+
+click on "Create Account"
+
+select your birthday
+??????????????????????????????????????????
