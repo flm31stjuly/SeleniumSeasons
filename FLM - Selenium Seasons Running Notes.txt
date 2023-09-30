@@ -371,6 +371,7 @@ _42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy
 _42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy
 
 _42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy
+_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy
 
 
 ????????????????????????????????
@@ -382,3 +383,106 @@ click on "Create Account"
 
 select your birthday
 ??????????????????????????????????????????
+
+_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy
+
+******************************************
+Automation - Selenium Season - 1
+Day    - 30th  September  - Saturday 
+******************************************
+
+Xpath : 
+
+xml path is a query language to find xml nodes .
+
+
+HTML is an implementation for XML , so we can use xpath for finding or focusing HTML nodes (WebElement) 
+
+												Xpath
+												
+												
+						1)Absolute						2)Relative
+
+
+1) Absolute Xpath :
+
+if you start writing the xpath from root node (html ) 						
+												
+route or path from root (html) 
+
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[2]/td[2]/input											
+												
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[2]/td[2]/input	
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[3]/td[2]/input											
+												
+
+2)Relative	xpath : 
+
+it can be a subset or path from some other node (not from html) 
+
+
+can be written using tagname and/or attributes and/or text 
+
+
+HTML Terminology 
+
+<input type="text" name="username" id="username" class="login_input" value="" fdprocessedid="0b90x8">
+
+<a href="Register.php">New User Register Here</a>
+
+<tagname attribute1="value of attribute1" attribute2="value of attribute2" .....></tagName>
+
+<tagname attribute1="value of attribute1" attribute2="value of attribute2" .....>text on element</tagName>
+
+i) xpath based on tagname and attribute/s 
+
+//tagname[@attribute='value of attribute']
+
+<input type="text" name="username" id="username" class="login_input" value="" fdprocessedid="zcgfru">
+
+//input[@id='username']
+
+//input[@class='login_input' and @type='password']
+
+ii) xpath based on tagname and text
+
+//tagname[text()='text on element']
+
+//td[text()='Important Note:']
+
+iii) xpath using contains for attributes 
+
+
+//tagname[contains(@attribute,'subset of attribute value')]
+
+//a[contains(@class,'_42ft _4jy0 _6lti _4jy6 _4jy2')]
+
+//img[contains(@src,'images/home.gif')]
+
+
+iv) xpath using contains for text 
+
+//tagname[contains(text(),'subset of text on webelement')] 
+
+//a[contains(text(),'Create new account')]
+
+
+v) xpath using starts-with 
+
+//tagname[starts-with(@attribute,'starting value ')]
+
+//a[starts-with(@class,'_42ft _4jy0') and @rel='async']
+
+
+
+
+
+											
+												
+												
+												
+												
+												
+												
+												
+												
