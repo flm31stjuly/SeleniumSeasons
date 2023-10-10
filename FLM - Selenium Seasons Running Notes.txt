@@ -485,7 +485,9 @@ Day    - 9th October  - Monday
 		
 
 ????????????????????????????
-Assignment
+Assignment  to be submitted to below email id 
+
+flmtechteam.testing@frontlinesedutech.com
 
 In https://www.pepperfry.com/
 
@@ -496,8 +498,63 @@ and also the the text each link
 
 ??????????????????????????????????????
 												
+											
+******************************************
+Automation - Selenium Season - 2
+Day    - 10th October  - Tuesday 
+******************************************												
+														
+	Links Testing (cont ...)											
+												
+Exception in thread "main" org.openqa.selenium.StaleElementReferenceException:
+ stale element reference: stale element not found												
+												
+Reason for StaleElementReferenceException:
+
+since there is change in DOM -Document object model ( this will describe the structure of nodes in HTML)
+the reference become old
+
+Solution: 		
+
+get the new reference (means create the block and the element in the block one more time)										
 												
 												
-												
-												
+===========================
+Unit Testing Frameworks
+============================	
+
+Java :  
+- junit
+- TestNG
+
+Python:
+
+-unittest
+-pytest
+
+
+.net
+
+- NUnit 
+
+TesttNG :
+
+junit + NUnit 
+
+
+how to install TestNG plugin?
+
+- In Eclipse 
+
+go to "help" --> "Eclipse Market place"
+
+enter testng in "find" text fields
+
+click on "go" button
+
+
+you will see "TestNG for Eclipse" plugin 
+
+
+											
 												

@@ -8,5 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/FLM31stJuly/softwares/selenium-server-standalone-3.141.59 (3).jar"/>
 	<classpathentry kind="lib" path="D:/FLM31stJuly/softwares/webdrivermanager-5.5.3-fat.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
