@@ -555,6 +555,46 @@ click on "go" button
 
 you will see "TestNG for Eclipse" plugin 
 
-
 											
-												
+******************************************
+Automation - Selenium Season - 2
+Day    - 11th October  - Wednesday 
+******************************************		
+											
+	TestNG : NG next generation 
+
+Annotation in TestNG :
+
+
+@Test  --> Test Case or Test Script 
+
+@BeforeMethod 
+
+@AfterMethod 
+
+paramters : 
+
+
+priority 
+
+dependsOnMethods
+
+
+----------------------------------
+Miscelleneous Actions
+
+- Mouse Hovering 
+
+Actions(C)   org.openqa.selenium.interactions
+
+Actions(WebDriver)
+
+
+moveToElement(WebElement)
+moveToElement(WebElement, int, int)
+
+
+//span[text()='Loans']
+	
+	
+	build()
