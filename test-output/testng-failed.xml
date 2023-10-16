@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="oct11th.AdactinHomePage2">
+      <class name="oct16th.FrameHandling">
         <methods>
-          <include name="changePasswordTest"/>
           <include name="setUp"/>
+          <include name="mouseHoverTest"/>
           <include name="teardown"/>
-          <include name="loginTest"/>
         </methods>
-      </class> <!-- oct11th.AdactinHomePage2 -->
+      </class> <!-- oct16th.FrameHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

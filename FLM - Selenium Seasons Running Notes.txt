@@ -598,3 +598,142 @@ moveToElement(WebElement, int, int)
 	
 	
 	build()
+	
+******************************************
+Automation - Selenium Season - 2
+Day    - 11th October  - Wednesday 
+******************************************		
+
+Miscelleneous Actions(Cont ..)
+
+Drag And Drop :
+
+dragAndDrop(WebElement, WebElement) : first one is source , second is target 
+
+
+dragAndDropBy(WebElement, int, int)
+
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='draggable']"}
+  
+
+NoSuchElementException:
+
+Reason 1 : Locator may be wrong 
+
+Solution 1: correct the locator 
+
+Reason 2 : Element might be loaded lately or synchronization problem 
+
+Solution 2:  overcome synchronization by waits concepts (implicit wait , thread.sleep etc ..) 
+
+Reason 3: Element might be present in a frame 
+
+Solution 3: switch the driver focus to corresponding frame 
+
+???????????????????????????????????????????
+
+https://emicalculator.net/
+
+
+drag "Home Loan Amount" to 75 lakhs
+
+drag "Interest Rate" to 12.5%
+
+drag "Loan Tenure to 15 years 
+
+
+??????????????????????????????????????????
+
+to RightClic on webelement
+
+contextClick():
+contextClick(WebElement)
+
+to double click : 
+
+doubleClick():
+doubleClick(WebElement)
+
+
+Click and Hold :
+clickAndHold(WebElement)
+
+
+================================================
+Multiple Window Handling 
+================================================
+
+getWindowHandle or getWindowHandles
+
+
+switchTo():TargetLocator 
+
+window(String) : here String is the Window ID 
+
+org.openqa.selenium.ElementClickInterceptedException: 
+
+element click intercepted: Element is not clickable at point (692, 7417)
+
+
+Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Homeware Products @ Pepperfry
+
+Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Homeware Products @ Pepperfry
+
+
+
+******************************************
+Automation - Selenium Season - 2
+Day    - 16th October  - Monday 
+******************************************	
+
+
+//div[@id='loanamountslider']/span[@tabindex='0']
+
+//div[@id='loaninterestslider']/span[@tabindex='0']
+
+//div[@id='loantermslider']/span[@tabindex='0']
+
+
+
+Xpath using index :
+
+(//a[contains(text(),'Start free trial')])[1]
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: 
+{"method":"xpath","selector":"//input[@id='UserFirstName-EFUP']"}
+
+(//a[contains(text(),'Start free trial')]/parent::pbc-button/following-sibling::pbc-button/a[contains(text(),'Watch demo')])[1]
+
+
+
+--------------------------------
+Frames Handling 
+--------------------------------
+
+frame 		or 		iframe 
+
+<=HTML4				HTML5
+
+
+driver.switchTo():TargetLocator
+
+
+frame(int): here int is index of iframe or frame from top starting from 0
+frame(String): here String is name or id attribute value 
+
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id demo-frame
+
+frame(WebElement): 
+
+defaultContent()
+
+parentFrame()
+
+//div[contains(text(),'Find New Cars')]
+
+//div[contains(text(),'Popular Brands')]
+
+
+
+
