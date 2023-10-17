@@ -736,4 +736,114 @@ parentFrame()
 
 
 
+******************************************
+Automation - Selenium Season - 2
+Day    - 17th October  - Tuesday 
+******************************************	
 
+
+Alert 
+
+driver.switchTo():TargetLocator
+
+
+Alert al=driver.switchTo().alert();
+
+accept():void ==> this will click "ok" button on alert
+dismiss():void ==> this will click "cancel" button on alert
+getText():String ==> to retrieve the text present on alert 
+sendKeys(String):void ==> this will be used in prompt alert (to type some text in alert's text box)
+
+
+3 types :
+
+- Simple
+- Confirmation 
+- Prompt
+
+
+
+Please enter a valid user name
+
+?????????????????????????????????
+Assignment
+
+https://demo.guru99.com/v4/
+
+User ID :	mngr266311
+Password :	Admin123$
+
+
+after login 
+
+click on "Delete Customer"
+
+Enter some "Customer ID" 13245
+
+click on "Submit" button
+
+
+validate an alert having text "Do you really want to delete this Customer?" 
+
+the click on "Ok" 
+
+switch on one more alert
+
+validate text on alert to be "Customer does not exist!!"
+
+the click on "Ok" 
+
+??????????????????????????????????????????????????
+
+??????????????????????????????????????????????????
+
+Assignment :
+
+1. Navigate to URL : "http://demo.guru99.com/test/guru99home/"
+2. Click on the "JMeter Made easy" image.
+3. Switch to the newly appeared window.
+4. Scroll to the bottom of the screen.
+5. Verify/print the top tutorials values present on the screen.
+
+??????????????????????????????????????????????????????????
+
+==============================
+how to take Screenshot
+==============================
+
+TakesScreenshot(I)
+
+getScreenshotAs(OutputType<X>):X
+
+
+OutputType(I)
+
+BASE64 : OutputType<String>
+BYTES : OutputType<byte[]>
+FILE : OutputType<File>
+
+
+
+  File srcFile= ((RemoteWebDriver) driver).getScreenshotAs(OutputType.FILE);
+	     
+	     FileUtils.copyFile(srcFile, new File("Adactin1.png"));
+	     
+		 
+		 https://jenkov.com/tutorials/java-internationalization/simpledateformat.html
+		 
+		 
+==============================================
+JavaScriptExecutor 
+
+
+JavascriptExecutor(I)
+
+executeAsyncScript(String, Object...)
+executeScript(String, Object...) 
+
+here String is nothing but JavaScript statement 
+
+Object... this s vargs 
+
+		 
+		 
