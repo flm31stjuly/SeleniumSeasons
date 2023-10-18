@@ -845,5 +845,64 @@ here String is nothing but JavaScript statement
 
 Object... this s vargs 
 
+******************************************
+Automation - Selenium Season - 2
+Day    - 18th October  - Wednesday 
+******************************************			 
 		 
 		 
+Scroll the document 100px horizontally:
+
+window.scrollBy(100, 0);
+
+Scroll the document 100px vertically:
+
+window.scrollBy(0, 100);
+
+document.body.scrollHeight
+
+window.scrollBy(0, document.body.scrollHeight);
+
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (692, 7477)
+
+org.openqa.selenium.JavascriptException: javascript error: arguments[0].click is not a function
+														   
+														   
+=======================================================
+Waits in Selenium or Synchronization point or Timeouts 
+=======================================================		
+
+
+0) Hard Wait
+
+using Thread.sleep  ==> not encouraged 
+
+
+1)Implicit Wait
+
+
+driver.findElement ==> this will check the presence of element 
+
+if element is not present within 500 milli seconds then it will give NoSuchElementException
+
+	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	
+	
+
+2)Explicit Wait
+
+WebDriverWait(C):
+
+WebDriverWait(WebDriver, long)
+
+Wait(I):
+
+until(Function) : which is static method of ExpectedConditions
+
+ExpectedConditions(C):
+
+
+3)Fluent Wait 
+												   
+														   
+  
