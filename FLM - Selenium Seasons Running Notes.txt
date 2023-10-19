@@ -902,7 +902,83 @@ until(Function) : which is static method of ExpectedConditions
 ExpectedConditions(C):
 
 
+
+******************************************
+Automation - Selenium Season - 2
+Day    - 19th October  - Thursday 
+******************************************	
+
 3)Fluent Wait 
-												   
-														   
+					
+
+It's an improved form of Explicit Wait 
+
+
+the main improvements can be done for Explicit are 
+
+1) the max wait is always SECONDS , which can be improved to have milli ,HOURS etc...
+2) polling time ( frequency) always 500 milli seconds 
+3) no inbuilt Exception Handling 
+
+FluentWait(C)
+
+FluentWait(T)
+
+
+???????????????????????????????????????????????
+
+in https://echoecho.com/htmlforms10.htm
+
+validate radio buttons where wine is selected 
+
+
+ Water
+ Beer
+ Wine					
+			
+???????????????????????????????????????????????????
+
+===================
+WebTable 
+
+
+<table
+  <th 
+  <tbody 
+     <tr 
+	   <td 
+	   <td
+	 <tr
+	   <td 
+	   <td
+
+
+							WebTables
+							
+							
+		Static								Dynamic 
+
+
+https://www.timeanddate.com/worldclock/
+
+
+
+//table/tbody/tr[1]/td[1]   //table/tbody/tr[1]/td[2]  ....   //table/tbody/tr[1]/td[8]
+//table/tbody/tr[2]/td[1]
+:
+:
+
+//table/tbody/tr[36]/td[1] 
+
+		
+String part1="//table/tbody/tr[";
+String part2="]/td[";
+String part3="]";
+
+
+ https://www.hdfcbank.com/personal/resources/rates
+ 
+  
+  //td[text()='6 months 1 days  < = 9 months']/following-sibling::td[2]
+			
   
